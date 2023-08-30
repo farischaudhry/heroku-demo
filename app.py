@@ -6,7 +6,7 @@ import pickle
 
 scale_factor = math.sqrt(442)
 app = Flask(__name__)
-model = pickle.load(open('.\model.pkl', 'rb'))
+model = pickle.load(open('./model.pkl', 'rb'))
 
 # home endpoint
 @app.route('/')
